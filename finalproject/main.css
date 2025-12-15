@@ -2,43 +2,46 @@
 body {
   background-color: #e8f5e9;
   color: #333;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 10px 0;
+  font-family: 'Times New Roman', Times, serif
 }
 
-/*Container padding*/
+/*Container padding!!!*/
 .container {
   background-color: white;
   padding: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /*Header*/
 h1 {
   color: #1b5e20;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 3px solid #4a7c4e;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
 }
 
-/*Paragraphs*/
+/*Paragraphs and spacing*/
 p {
   line-height: 1.5;
-  margin-bottom: 5px;
-  padding: 3px 0;
+  margin-bottom: 10px;
+  padding: 5px 0;
   text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
-/*Links*/
+/*Any links*/
 a {
   color: #2c5f2d;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 a:hover {
@@ -46,10 +49,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/*Rows*/
+/*Rows and spacing*/
 .row {
-  margin-bottom: 8px;
-  padding: 5px 0;
+  margin-bottom: 15px;
+  padding: 8px 0;
 }
 
 /*Columns*/
@@ -62,25 +65,31 @@ a:hover {
 
 /*Navbar*/
 .navbar {
-  background-color: #2e7d32;
+  background-color: #2e7d32 !important;
   margin-bottom: 15px;
-  box-shadow: 0 2px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand, .nav-link {
-  color: white;
+  color: rgb(36, 50, 45) !important;
   font-weight: bold;
 }
 
 .navbar-brand:hover, .nav-link:hover {
-  color: #a8d5a8;
+  color: #a8d5a8 !important;
 }
 
-/*Containers*/
+/*Containers!*/
 iframe {
   margin: 10px 0;
   padding: 8px;
   background-color: white;
   border-radius: 5px;
   border: 1px solid #ddd;
+}
+
+.image-row img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
